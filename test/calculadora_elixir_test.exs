@@ -25,4 +25,8 @@ defmodule CalculadoraElixirTest do
   test "O fatorial de 5 deve ser igual 120" do
     assert CalculadoraElixir.Multi.fatorial(5) == 120
   end
+
+  test "A substração de 0 - 1 deve ser -1" do
+    assert CalculadoraElixir.Sub.sub(0, 1) == -1
+  end
 end
